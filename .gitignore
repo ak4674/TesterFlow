@@ -1,0 +1,16 @@
+# Python
+backend/.venv/
+backend/__pycache__/
+backend/**/__pycache__/
+*.pyc
+
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# Env secrets (keep .env.example, ignore actual values)
+frontend/.env.local
+frontend/.env
+
+# Whisper model cache
+.cache/
